@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro"; // if your site already has a Layout
+const { title, description, skills = [], repo, demo, date } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <section class="max-w-3xl mx-auto py-10 space-y-6">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold">{title}</h1>
+      {description && <p class="text-base opacity-80">{description}</p>}
+      {date && <p class="text-sm opacity-70">{date}</p>}
+      {skills.length > 0 && (
+        <ul class="flex flex-wrap gap-2 pt-2">
+          {skills.map((s) => <li class="px-2 py-1 text-sm rounded-full bg-gray-200/60">{s}</li>)}
+        </ul>
+      )}
+      {(repo || demo) && (
+        <div class="flex gap-3 pt-3">
+          {repo && <a class="underline" href={repo} target="_blank" rel="noopener">Source</a>}
+          {demo && <a class="underline" href={demo} target="_blank" rel="noopener">Live demo</a>}
+        </div>
+      )}
+    </header>
+
+    <article class="prose max-w-none">
+      <slot />
+    </article>
+  </section>
+</Layout>

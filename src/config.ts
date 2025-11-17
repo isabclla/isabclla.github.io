@@ -17,21 +17,21 @@ export const siteConfig = {
       name: "CubeSTEP",
       description:
         "A collaboration between JPL and Cal Poly Pomona to develop a CubeSat platform that can support future payloads. The project focuses on using additive manufacturing to make the platform adaptable for different mission needs and on developing and testing a thermal management system using oscillating heat pipes (OHPs) provided by JPL.",
-      link: "https://www.cpp.edu/news/content/2023/09/cal-poly-pomona-receives-1-2m-in-nasa-grants-for-space-related-projects-and-research/index.shtml",
+      link: "/projects/cubestep",
       skills: ["SolidWorks", "ITAR Compliance", "ISO-Class Cleanroom"],
     },
     {
       name: "Foot Traffic Monitoring System (In Progress)",
       description:
         "A doorway counter using two VL53L1X time-of-flight sensors, an ESP32-S3 microcontroller, and an OLED display to detect entry and exit direction and show live counts.",
-      link: "",
+      link: "/projects/ddr-style-rhythm-game",
       skills: ["C", "ESP32"],
     },
     {
       name: "DDR-Style Rhythm Game on FPGA (Planned)",
       description:
         "A simplified rhythm game inspired by Dance Dance Revolution, to be implemented in Verilog on the Nexys A7 Artix-7 board. The game will use VGA output to display four note lanes and a hit line, pushbuttons for input, and simple audio feedback through PWM. Players will earn points by pressing the correct button as the falling note reaches the hit line.",
-      link: "",
+      link: "/projects/foot-traffic-monitoring-system",
       skills: ["Verilog", "Xilinx Vivado", "Artix-7 FPGA"],
     },
   ],

@@ -1,91 +1,67 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Isabella Cruz",
+  title: "Electrical Engineering Student at Cal Poly Pomona",
+  description: "Portfolio website of Isabella Cruz",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "incruz@cpp.edu",
+    linkedin: "https://linkedin.com/in/isabclla",
+    twitter: "https://x.com/",
+    github: "https://github.com/isabclla",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a first-year Electrical Engineering transfer student at Cal Poly Pomona. So far, I’ve really enjoyed embedded systems and circuit analysis. Embedded systems are exciting to me because they let you quickly build something useful and keep fine-tuning it. It’s satisfying seeing your code come to life in real hardware. I also enjoy circuit analysis because it blends my interest in problem-solving and physics, which was what drew me to electrical engineering in the first place. Outside of school, I love cooking and experimenting with healthy recipes. Right now, I’m doing “No Sugar November” as a fun challenge with friends. I also love to discover new music, and I’m currently into scenecore because it’s perfect for keeping me energized during late night project sessions. When I’m not in the lab or kitchen, you’ll probably find me discovering new music, hanging out with friends, or planning my next project.",
+  skills: ["C", "Verilog", "Xilinx Vivado", "SolidWorks", "LTspice", "PIC18F", "ESP32", "Artix-7 FPGA", "ITAR Compliance", "ISO-Class Cleanroom"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "CubeSTEP",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A collaboration between JPL and Cal Poly Pomona to develop a CubeSat platform that can support future payloads. The project focuses on using additive manufacturing to make the platform adaptable for different mission needs and on developing and testing a thermal management system using oscillating heat pipes (OHPs) provided by JPL.",
+      link: "https://www.cpp.edu/news/content/2023/09/cal-poly-pomona-receives-1-2m-in-nasa-grants-for-space-related-projects-and-research/index.shtml",
+      skills: ["SolidWorks", "ITAR Compliance", "ISO-Class Cleanroom"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Foot Traffic Monitoring System (In Progress)",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A doorway counter using two VL53L1X time-of-flight sensors, an ESP32-S3 microcontroller, and an OLED display to detect entry and exit direction and show live counts.",
+      link: "",
+      skills: ["C", "ESP32"],
     },
     {
-      name: "ExtensionKit",
+      name: "DDR-Style Rhythm Game on FPGA (Planned)",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A simplified rhythm game inspired by Dance Dance Revolution, to be implemented in Verilog on the Nexys A7 Artix-7 board. The game will use VGA output to display four note lanes and a hit line, pushbuttons for input, and simple audio feedback through PWM. Players will earn points by pressing the correct button as the falling note reaches the hit line.",
+      link: "",
+      skills: ["Verilog", "Xilinx Vivado", "Artix-7 FPGA"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Vector Space Biosciences",
+      title: "Electrical Engineering Intern",
+      dateRange: "June 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Contributed to an in-house design projected to reduce satellite costs by at least 21.7%",
+        "Defined the input and output requirements for a custom satellite PCB",
+        "Collaborated with a senior intern to support schematic development",
       ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Cal Poly Pomona",
+      degree: "BS in Electrical Engineering",
+      dateRange: "2025 - 2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "CGPA: 3.98"
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "College of the Canyons",
+      degree: "AS-T in Mathematics, AS-T in Biology",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Summa Cum Laude, Valedictorian"
       ],
     },
   ],

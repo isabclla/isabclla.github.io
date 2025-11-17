@@ -1,4 +1,5 @@
 ---
+layout: ../../components/ProjectLayout.astro
 title: "CubeSTEP"
 slug: "cubestep"
 role: "Harness Responsible Engineer, On-Board Computer (OBC) Subsystem Lead"
@@ -23,3 +24,4 @@ The project is ongoing and just entering the integration and testing phase.
 
 ## Images
 Due to an NDA, I am unable to share images of the design models or documentation.
+

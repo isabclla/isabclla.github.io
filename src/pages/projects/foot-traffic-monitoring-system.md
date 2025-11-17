@@ -1,4 +1,5 @@
 ---
+layout: ../../components/ProjectLayout.astro
 title: "Foot Traffic Monitoring System"
 slug: "foot-traffic-monitoring-system"
 role: "Designer and Developer"
@@ -23,3 +24,4 @@ The prototype successfully distinguishes entry and exit directions with over 95%
 
 ## Reflection
 So far, I have learned how to use the ESP32 to communicate with multiple I²C devices. I figured out how to wire and initialize them, assign unique addresses, and display live sensor readings on the OLED. Next, I will learn how to use the distance data to detect movement direction, integrate Wi-Fi for data logging, and refine the system into a complete, battery-powered foot-traffic monitor.
+

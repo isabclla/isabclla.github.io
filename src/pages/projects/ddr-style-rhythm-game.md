@@ -1,4 +1,5 @@
 ---
+layout: ../../components/ProjectLayout.astro
 title: "DDR-Style Rhythm Game on FPGA (Planned)"
 slug: "ddr-style-rhythm-game"
 role: "Designer and Developer"
@@ -17,3 +18,4 @@ The goal is to create a real-time, interactive rhythm game built entirely in har
 
 ## Process / Methodology (Planned)
 I will sketch lane layouts and timing diagrams for falling notes, reuse existing VGA modules for display control and develop new ones for note movement and scoring feedback, create a timing system to control the note speed and store note data, implement a forgiving scoring window so players can still earn points with near-perfect timing, adapt the existing music player module to play beats and hit sounds, and test the game by running behavioral simulations in Vivado and verifying that the display is correct.
+
